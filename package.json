@@ -1,0 +1,36 @@
+{
+  "name": "express-mysql-passport-authentication",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-Joy/Express-mysql-passport-authentication.git"
+  },
+  "keywords": [
+    "Authentication",
+    "login",
+    "sign-up"
+  ],
+  "author": "coder_j",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coder-Joy/Express-mysql-passport-authentication/issues"
+  },
+  "homepage": "https://github.com/coder-Joy/Express-mysql-passport-authentication#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
